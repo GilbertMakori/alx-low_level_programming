@@ -1,5 +1,3 @@
-#include <stdlid.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main- prints if number is positive, zero or negative
