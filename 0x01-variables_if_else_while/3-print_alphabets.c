@@ -1,30 +1,24 @@
-/*
- * File: 3-print_alphabets.c
- * Auth: Brennan D
- */
-
 #include <stdio.h>
-
 /**
- * File: 3-print_alphabets.c
- * Auth: Brennan D Baraban
+ * main - Prints the alphabetic in lower and upper case
+ * Return: Always (Success)
  */
 int main(void)
 {
-	char letter;
-		
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		putchar(letter);
-	{
-        
+	char c;
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(letter);
+		putchar(c);
+	}
+
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
 	}
 
 	putchar('\n');
 
 	return (0);
 }
+
