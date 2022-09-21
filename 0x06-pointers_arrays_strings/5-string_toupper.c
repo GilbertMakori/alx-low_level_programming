@@ -3,19 +3,24 @@
 /**
  * string_toupper - Change all lowercase letters to uppercase
  * @c: string
- * Return: c
+ * Return: int
  */
 
-char *string_toupper(char *c)
+char *string_toupper(char *s)
 {
-	int i;
+	int i = 0;
+	int j;
 
-	for (i = 0; c[i] != '\0'; i++)
+	while (s[i] != '\0')
 	{
-		for (i = 0; c[i] != '\0'; i++)
+		i++;
+	}
+	for (j = 0; j < i; j++)
+	{
+		if (s[j] >= 97 && s[j] <= 122)
 		{
-			c[i] -= 32;
+			s[j] =  s[j] - 32;
 		}
 	}
-	return (c);
+	return (s);
 }
