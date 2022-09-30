@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlid.h>
+#include <stdlib.h>
 
 /**
  * main - add 2 positive numbers and print the result
