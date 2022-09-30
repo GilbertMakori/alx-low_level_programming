@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlid.h>
+#include <stdlib.h>
 
 /**
  * main - multiply 2 numbers passed to main, or Error
@@ -11,15 +11,22 @@
 
 int main(int argc, char *argv[])
 {
-	(void) argc;
+	int i, j;
 
-	if (argv[1] && argv[2])
+	if (argc == 1 || argc == 2)
 	{
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-		return (0);
+		printf("Error\n");
+		return (1);
 	}
 	else
-		printf("Error\n");
+	{
+		j = 1;
 
-	return (1);
+		for (i = 1; i < 3; i++)
+			j *= atoi(argv[i]);
+
+		printf("%d\n", j);
+	}
+
+	return (0);
 }
