@@ -14,7 +14,3 @@ main:
 section .data
 msg db 'Hello, Coding', 0xa	;message to print
 len equ $ - msg			;length of the string
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
