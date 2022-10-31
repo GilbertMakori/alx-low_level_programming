@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * set_bit - sets value of a bit to 1 at a given index
@@ -19,6 +19,3 @@ int set_bit(unsigned long int *n, unsigned int index)
 
 	return (1);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
