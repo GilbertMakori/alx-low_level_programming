@@ -27,6 +27,3 @@ void print_binary(unsigned long int n)
 			printf("0");
 	}
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
